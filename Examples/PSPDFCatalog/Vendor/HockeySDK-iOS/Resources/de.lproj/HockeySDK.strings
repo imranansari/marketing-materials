@@ -1,0 +1,228 @@
+﻿/* General */
+
+/* For dialogs yes buttons */
+"HockeyYes" = "Ja";
+
+/* For dialogs no buttons */
+"HockeyNo" = "Nein";
+
+/* For dialogs ok buttons */
+"HockeyOK" = "OK";
+
+/* Replacement for app name, if it could not be detected */
+"HockeyAppNamePlaceholder" = "Diese App";
+
+
+/* Crash */
+
+
+/* Crash dialog */
+
+/* Title showing in the alert box when crash report data has been found */
+"CrashDataFoundTitle" = "%@ unerwartet beendet";
+
+/* Description explaining that crash data has been found and ask the user if the anonymous data might be uplaoded to the developers server */
+"CrashDataFoundAnonymousDescription" = "Möchten Sie einen anonymen Absturzbericht senden, damit wir das Problem beheben können?";
+
+/* Description explaining that crash data has been found and ask the user if the non anonymous data might be uplaoded to the developers server */
+"CrashDataFoundDescription" = "Möchten Sie einen Absturzbericht senden, damit wir das Problem beheben können?";
+
+/* Alert box button if the users wants to send crash data always automatically */
+"CrashSendReportAlways" = "Immer senden";
+
+/* Alert box button to send the crash report once */
+"CrashSendReport" = "Bericht senden";
+
+/* Alert box button to decline sending the report */
+"CrashDontSendReport" = "Nicht senden";
+
+/* Text showing in a processing box that the crash data is being uploaded to the server */
+"CrashReportSending" = "Senden…";
+
+
+/* Update */
+
+
+/* Update Alert view */
+
+/* Update available */
+"UpdateAvailable" = "Aktualisierung verfügbar";
+
+"UpdateAlertTextWithAppVersion" = "%@ ist verfügbar.";
+
+"UpdateAlertMandatoryTextWithAppVersion" = "%@ ist verfügbar und muss installiert werden!";
+
+"UpdateIgnore" = "Ignorieren";
+
+"UpdateShow" = "Anzeigen";
+
+"UpdateInstall" = "Installieren";
+
+
+/* Update Details */
+
+"UpdateScreenTitle" = "Aktualisierung";
+
+"UpdateButtonCheck" = "PRÜFE";
+
+"UpdateButtonSearching" = "PRÜFEN";
+
+"UpdateButtonUpdate" = "UPDATE";
+
+"UpdateButtonInstalling" = "INSTALLIEREN";
+
+"UpdateButtonOffline" = "OFFLINE";
+
+"UpdateInstalled" = "INSTALLIERT";
+
+"UpdateVersion" = "Version";
+
+"UpdateShowPreviousVersions" = "Zeige frühere Versionen...";
+
+"UpdateNoUpdateAvailableTitle" = "Kein Update Verfügbar";
+
+"UpdateNoUpdateAvailableMessage" = "%@ ist bereits die aktuellste Version.";
+
+"UpdateError" = "Fehler";
+
+"UpdateWarning" = "Warnung";
+
+"UpdateNoReleaseNotesAvailable" = "Keine Release Notes verfügbar.";
+
+
+/* Update Authorization  */
+
+"UpdateAuthorizationProgress" = "Autorisierung...";
+
+"UpdateAuthorizationOffline" = "Internet Verbindung wird benötigt!";
+
+"UpdateAuthorizationDenied" = "Autorisierung verweigert. Bitte kontaktieren Sie den Entwickler.";
+
+
+/* Update Expiry  */
+
+"UpdateExpired" = "%@ ist abgelaufen und kann nicht weiter benutzt werden.";
+
+
+/* Update Simulator Warning */
+
+"UpdateSimulatorMessage" = "Hockey funktioniert nicht im Simulator.";
+
+
+
+
+/* Feedback */
+
+
+/* New Message Alert */
+
+/* Alert Title */
+"HockeyFeedbackNewMessageTitle" = "New Feedback Response";
+
+/* Alert Text */
+"HockeyFeedbackNewMessageText" = "A new response to your feedback is available. Would you like to view it?";
+
+/* Alert Ignore Button */
+"HockeyFeedbackIgnore" = "Ignore";
+
+/* Alert Show Button */
+"HockeyFeedbackShow" = "Show";
+
+
+/* List View */
+
+/* Title */
+"HockeyFeedbackListTitle" = "Feedback";
+
+/* Last Updated */
+"HockeyFeedbackListLastUpdated" = "Last Updated: %@";
+
+/* Never Updated */
+"HockeyFeedbackListNeverUpdated" = "Never";
+
+/* Provide Feedback Button Title */
+"HockeyFeedbackListButonWriteFeedback" = "Provide Feedback";
+
+/* Add a Response Button Title */
+"HockeyFeedbackListButonWriteResponse" = "Add a Response";
+
+/* User Data Set Name Button Title */
+"HockeyFeedbackListButonUserDataSetName" = "Set Your Name";
+
+/* User Data Set Email Button Title */
+"HockeyFeedbackListButonUserDataSetEmail" = "Set Your Email";
+
+/* User Data With Name Button Title */
+"HockeyFeedbackListButonUserDataWithName" = "Name: %@";
+
+/* User Data With Email Button Title */
+"HockeyFeedbackListButonUserDataWithEmail" = "Email: %@";
+
+/* Button title for deleting all local messages*/
+"HockeyFeedbackListButonDeleteAllMessages" = "Delete All Messages";
+
+/* Message pending to be send */
+"HockeyFeedbackListMessagePending" = "Pending";
+
+
+/* Delete All Messages Action Sheet / Alert View */
+
+/* Title for the Action Sheet */
+"HockeyFeedbackListDeleteAllTitle" = "This will delete all messages on this device.";
+
+/* Button Title to perform delete action */
+"HockeyFeedbackListDeleteAllDelete" = "Delete";
+
+/* Button Title to cancel delete action */
+"HockeyFeedbackListDeleteAllCancel" = "Cancel";
+
+
+/* Open/Copy Link In Safari Action Sheet / Alert View */
+
+/* Button Title to cancel */
+"HockeyFeedbackListLinkActionCancel" = "Cancel";
+
+/* Button Title to Open the Link */
+"HockeyFeedbackListLinkActionOpen" = "Open";
+
+/* Button Title to Copy the Link */
+"HockeyFeedbackListLinkActionCopy" = "Copy";
+
+
+/* UIActivity */
+
+/* Activity Sharing Button Title, App Name will be inserted */
+"HockeyFeedbackActivityButtonTitle" = "%@ Feedback";
+
+/* if there can no app name be found, use this instead for HockeyFeedbackActivityButtonTitle */
+"HockeyFeedbackActivityAppPlaceholder" = "App";
+
+
+/* Compose Message */
+
+/* Title */
+"HockeyFeedbackComposeTitle" = "New Feedback";
+
+/* Send button */
+"HockeyFeedbackComposeSend" = "Send";
+
+
+/* Set User Data */
+
+/* Title */
+"HockeyFeedbackUserDataTitle" = "My Info";
+
+/* Description On What Should Be Entered */
+"HockeyFeedbackUserDataDescription" = "Please provide your information before writing your feedback.";
+
+/* Name Field */
+"HockeyFeedbackUserDataName" = "Name";
+
+/* Name Placeholder */
+"HockeyFeedbackUserDataNamePlaceHolder" = "John Doe";
+
+/* Email Field */
+"HockeyFeedbackUserDataEmail" = "Email";
+
+/* Email Placeholder */
+"HockeyFeedbackUserDataEmailPlaceholder" = "example@email.com";
